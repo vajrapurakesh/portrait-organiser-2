@@ -1,0 +1,171 @@
+﻿/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-11-12, 7:51:46
+    Author     : msi-cn
+*/
+
+body 
+{font:12px Tahoma;margin:0px;text-align:center;background:white;overflow-x: hidden;
+}
+#header-1
+{
+    height: 6em;
+    background: #3300cc ;
+
+    width:100%;
+
+}
+#header {
+
+    height: 6em;
+    width: 200px;
+    margin-left: 150px;
+    background-color: #33ffcc;
+
+
+}
+#btn1  {
+    overflow:hidden;
+    height: 6em;
+    width: 200px;
+    margin-left: 500px;
+    /* background-color: red; */
+}
+#btn2 {
+    overflow:hidden;
+    height: 6em;
+    width: 200px;
+    margin-left: 50px;
+    /*   background-color: red; */
+}
+#btn3{
+    overflow:hidden;
+    height: 6em;
+    width: 200px;
+    margin-left:650px;
+    margin-top:100px;
+}
+#img2{      
+    height: 6em;
+    width:200px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #33ff33;
+    color: #ff3399;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+ul{
+    text-align:center;
+    line-height:12px;
+    padding:25px 0 0 0
+} 
+li{
+    display:inline;
+}
+li a{
+    color:#000000;
+    text-decoration:none;
+    margin:0 10px;
+    font-size: 20px;
+}
+li a:visited{text-decoration:none}
+li a:hover{text-decoration:underline}
+
+.image{
+
+    height:100%;
+    width:33%;
+    display: inline-table;
+    border-collapse: collapse;
+    
+}
+
+
+
+
+
+.dispin{ display:inline-block;}      
+/* reset */
+
+/*end reset*/
+/****-----start-body----****/
+
+
+
+
+

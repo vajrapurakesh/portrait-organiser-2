@@ -1,0 +1,22 @@
+Database Name:po
+Database Server Name: localhost
+Database Username: root
+
+Table1 Name: user
+
+CREATE TABLE `po`.`user` ( `UID` INT(11) NOT NULL AUTO_INCREMENT , `firstName` VARCHAR(255) NOT NULL , `lastName` VARCHAR(255)NOT NULL , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL ,PRIMARY KEY (`UID`), UNIQUE (`email`)) ENGINE = InnoDB;
+
+Table2 Name: profileDetails
+
+CREATE TABLE `po`.`profileDetails` ( `PId` INT(11) NOT NULL AUTO_INCREMENT , `dob` VARCHAR(50) , `address` VARCHAR(255) , `phone` INT(15) , `nickname` VARCHAR(255) , `description` VARCHAR(255) , `photo` LONGBLOB , `UId` INT(11) , PRIMARY KEY (`PId`)) ENGINE = InnoDB;
+
+ALTER TABLE `profiledetails`
+  DROP `photo`;
+
+ALTER TABLE `profiledetails`  ADD `path0` VARCHAR(500) NULL  AFTER `description`,  ADD `path1` VARCHAR(500) NULL  AFTER `path0`,  ADD `path2` VARCHAR(500) NULL  AFTER `path1`,  ADD `filetype` VARCHAR(500) NULL  AFTER `path2`;
+
+ALTER TABLE `profiledetails` CHANGE `path0` `path0` LONGBLOB NULL DEFAULT NULL, CHANGE `path1` `path1` LONGBLOB NULL DEFAULT NULL, CHANGE `path2` `path2` LONGBLOB NULL DEFAULT NULL;
+
+Table3 Name: upload
+
+CREATE TABLE `po`.`upload` ( `UploadId` INT(11) NOT NULL , `photo` LONGBLOB NOT NULL , `Name` VARCHAR(255) NULL , `Date` VARCHAR(50) NULL , `Description` VARCHAR(50000) NULL , `UId` INT(11) NOT NULL , PRIMARY KEY (`UploadId`)) ENGINE = InnoDB;

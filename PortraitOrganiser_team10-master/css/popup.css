@@ -1,0 +1,88 @@
+.submenu{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.submenu li {
+    border-bottom: 1px solid #4b4a5e;
+    display: block;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #d9d9d9;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #d9d9d9;
+    padding: 12px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+    background: #b63b4d;
+    color: #FFF;
+}
+
+.btn-o {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    color: #ffffff !important;
+    display: inline-block;
+    font-family: open sans;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    margin: 0 0 10px;
+    padding: 5px 11px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.btn-o:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff !important;
+}
+.btn-o:focus {
+    background:#b63b4d;
+    color: #fff;
+    border: 1px solid #b63b4d;
+}
+ul{
+    list-style-type: none;
+}
+
+.buttonClass
+{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    font-size: 10px;
+}
+#change{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+.b1{
+    border:0;
+    background:transparent;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18;
+    color: whitesmoke;
+    font-family: cursive;
+}
